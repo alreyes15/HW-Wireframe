@@ -1,7 +1,7 @@
 * {
     margin: 0 auto 10px auto;
-    text-align: center;
-    
+    text-align: center;   
+
 }
 
 body {
@@ -30,23 +30,27 @@ body {
 .container{
     width: 100%;
     margin: 10px 5px 10px;
-    background:#ebebeb;
+    background:#777;
     display: flex;
-}
-
-#aside {
-    
-    padding: 40px;
-    background:#ebebeb;
-    width: 35%;
-    height: 200px;
+    /* float: left;
+    clear: left; */
 }
 #section {
     float: left;
     padding: 40px;
     background: #ebebeb;
+    width: 40%;
+    height: 200px;
+    overflow: auto;
+}
+#aside {
+    padding: 40px;
+    background:#ebebeb;
     width: 35%;
     height: 200px;
+    /* float: right;
+    clear: right;
+    overflow: auto; */
 }
 #article{
 
